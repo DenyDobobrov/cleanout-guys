@@ -1,6 +1,6 @@
 /**
  * CLEANOUT GUYS — MAIN JAVASCRIPT
- * cleanout-guys.com
+ * garage-cleanout.com
  * Handles: Nav, FAQ accordion, Stats counter, Back to top, Form validation
  */
 

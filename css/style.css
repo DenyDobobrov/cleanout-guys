@@ -1,6 +1,6 @@
 /* ============================================================
    CLEANOUT GUYS — MASTER STYLESHEET
-   Site: cleanout-guys.com | Chicago's #1 Junk Removal & Cleanout
+   Site: garage-cleanout.com | Chicago's #1 Junk Removal & Cleanout
    Design System: Forest Green + Action Orange + Professional Dark
    ============================================================ */
 
@@ -250,34 +250,15 @@ p:last-child { margin-bottom: 0; }
 .site-logo {
   display: flex;
   align-items: center;
-  gap: .75rem;
   text-decoration: none;
   flex-shrink: 0;
 }
-.site-logo .logo-icon {
-  width: 48px;
-  height: 48px;
-  background: var(--green-800);
-  border-radius: var(--radius-md);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.6rem;
-  flex-shrink: 0;
-}
-.site-logo .logo-text { line-height: 1; }
-.site-logo .logo-name {
-  font-size: 1.35rem;
-  font-weight: 800;
-  color: var(--green-800);
-  letter-spacing: -.02em;
-}
-.site-logo .logo-tagline {
-  font-size: .72rem;
-  color: var(--dark-400);
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: .06em;
+.site-logo-img {
+  height: 64px;
+  width: auto;
+  max-width: 220px;
+  object-fit: contain;
+  display: block;
 }
 
 /* Nav */
@@ -764,23 +745,21 @@ p:last-child { margin-bottom: 0; }
   margin-bottom: 3rem;
 }
 .footer-logo {
-  display: flex;
-  align-items: center;
-  gap: .75rem;
+  display: inline-flex;
   margin-bottom: 1.25rem;
   text-decoration: none;
 }
-.footer-logo .logo-icon {
-  width: 44px;
-  height: 44px;
-  background: var(--green-800);
-  border-radius: var(--radius-md);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.4rem;
+.footer-logo-img {
+  height: 70px;
+  width: auto;
+  max-width: 200px;
+  object-fit: contain;
+  display: block;
+  /* White background pill so logo reads on dark footer */
+  background: #fff;
+  border-radius: 10px;
+  padding: 6px 12px;
 }
-.footer-logo .logo-name { font-size: 1.2rem; font-weight: 800; color: var(--white); }
 .footer-about { font-size: .9rem; line-height: 1.7; margin-bottom: 1.25rem; }
 .footer-nap { font-size: .88rem; line-height: 2; }
 .footer-nap a { color: rgba(255,255,255,.75); }

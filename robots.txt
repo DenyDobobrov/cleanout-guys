@@ -1,5 +1,5 @@
 # CLEANOUT GUYS — robots.txt
-# https://cleanout-guys.com
+# https://garage-cleanout.com
 
 User-agent: *
 Allow: /
@@ -55,4 +55,4 @@ User-agent: cohere-ai
 Allow: /
 
 # Sitemap location
-Sitemap: https://cleanout-guys.com/sitemap.xml
+Sitemap: https://garage-cleanout.com/sitemap.xml
