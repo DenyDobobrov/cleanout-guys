@@ -15,10 +15,10 @@
   --green-50:  #EFF6FF;
 
   /* CTA Orange — kept for action buttons */
-  --orange-700: #c4501a;
-  --orange-600: #EA580C;
-  --orange-500: #f07c2e;
-  --orange-100: #fff0e6;
+  --orange-700: #0D47A1;
+  --orange-600: #1565C0;
+  --orange-500: #1976D2;
+  --orange-100: #E3F2FD;
 
   /* Neutrals */
   --dark-900:  #0a0a0a;
@@ -30,7 +30,7 @@
   --white:     #ffffff;
   --silver:    #94A3B8;
 
-  --gold:      #f59e0b;
+  --gold:      #1565C0;
   --red:       #dc2626;
 
   --font-main: 'Inter', 'Segoe UI', Arial, sans-serif;
@@ -127,14 +127,14 @@ p:last-child { margin-bottom: 0; }
   background: var(--orange-600);
   color: var(--white);
   border-color: var(--orange-600);
-  box-shadow: 0 4px 16px rgba(232,104,26,.4);
+  box-shadow: 0 4px 16px rgba(21,101,192,.4);
 }
 .btn-primary:hover {
   background: var(--orange-700);
   border-color: var(--orange-700);
   color: var(--white);
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(232,104,26,.45);
+  box-shadow: 0 8px 24px rgba(21,101,192,.45);
 }
 
 .btn-secondary {
@@ -144,7 +144,7 @@ p:last-child { margin-bottom: 0; }
 }
 .btn-secondary:hover {
   background: var(--white);
-  color: var(--green-700);
+  color: var(--white);
   transform: translateY(-2px);
 }
 
@@ -180,7 +180,7 @@ p:last-child { margin-bottom: 0; }
   border-color: var(--orange-600);
   font-size: 1.2rem;
   padding: 1rem 2rem;
-  box-shadow: 0 4px 20px rgba(232,104,26,.5);
+  box-shadow: 0 4px 20px rgba(21,101,192,.5);
   animation: pulse-phone 2.5s infinite;
 }
 .btn-phone:hover {
@@ -190,8 +190,8 @@ p:last-child { margin-bottom: 0; }
 }
 
 @keyframes pulse-phone {
-  0%, 100% { box-shadow: 0 4px 20px rgba(232,104,26,.5); }
-  50% { box-shadow: 0 4px 32px rgba(232,104,26,.75); }
+  0%, 100% { box-shadow: 0 4px 20px rgba(21,101,192,.5); }
+  50% { box-shadow: 0 4px 32px rgba(21,101,192,.75); }
 }
 
 /* ── 5. SECTION HEADERS ─────────────────────────────────────── */
