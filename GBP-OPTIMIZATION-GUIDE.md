@@ -41,7 +41,7 @@ Call for a FREE quote!
 ### ✅ Required Fields
 - [ ] Business name
 - [ ] Primary category + 4 additional categories
-- [ ] Phone number (must match website: (847) 306-9567)
+- [ ] Phone number (must match website: (847) 461-3287)
 - [ ] Website URL: https://cleanout-guys.com
 - [ ] Service area (all Chicagoland)
 - [ ] Business hours (Mon-Fri 7am-7pm, Sat 7am-5pm, Sun 8am-3pm)
@@ -104,7 +104,7 @@ Based on @IsellSaaSGuy's strategy: **Reviews are Bitcoin for local SEO.**
 > "Thank you so much, [Name]! We're so glad our team was able to help with your [service] in [city]. We appreciate you taking the time to leave a review — it means the world to our team. We're always here if you need us again! — The Cleanout Guys Team"
 
 **Negative review template:**
-> "Hi [Name], thank you for your feedback. We're sorry your experience didn't meet our standards. Please call us at (847) 306-9567 so we can make this right for you. We stand behind every job 100%."
+> "Hi [Name], thank you for your feedback. We're sorry your experience didn't meet our standards. Please call us at (847) 461-3287 so we can make this right for you. We stand behind every job 100%."
 
 ### Review Automation Tool
 Consider: **ReviewRover** (promoted by @IsellSaaSGuy) or alternatives:
@@ -141,10 +141,10 @@ Post to your GBP **at least once per week.** Google rewards active profiles.
 Add these questions AND answers yourself (click "Ask a Question" then answer it):
 
 **Q: How much does junk removal cost in Chicago?**
-A: Our prices range from $100–$600+ depending on volume. We offer FREE on-site quotes with flat, upfront pricing. Call (847) 306-9567.
+A: Our prices range from $100–$600+ depending on volume. We offer FREE on-site quotes with flat, upfront pricing. Call (847) 461-3287.
 
 **Q: Do you offer same-day junk removal?**
-A: Yes! Call before noon at (847) 306-9567 for same-day service throughout Chicago and suburbs.
+A: Yes! Call before noon at (847) 461-3287 for same-day service throughout Chicago and suburbs.
 
 **Q: Are you licensed and insured?**
 A: Yes, fully licensed and insured in Illinois. We carry liability insurance and worker's comp on every job.
@@ -163,7 +163,7 @@ Your Name, Address, Phone must be **identical everywhere** on the web.
 
 ### Use Exactly:
 - **Name:** Cleanout Guys
-- **Phone:** (847) 306-9567
+- **Phone:** (847) 461-3287
 - **Address:** [Your real address], Chicago, IL [zip]
 - **Website:** https://cleanout-guys.com
 
@@ -255,4 +255,4 @@ The answer: strong GBP + website + reviews + citations = AI mentions your busine
 
 ---
 
-*Guide prepared by Cleanout Guys strategy team · cleanout-guys.com · (847) 306-9567*
+*Guide prepared by Cleanout Guys strategy team · cleanout-guys.com · (847) 461-3287*

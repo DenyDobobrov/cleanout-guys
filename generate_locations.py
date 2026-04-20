@@ -131,11 +131,11 @@ def get_faqs(city, county, region):
     return [
         {
             "q": f"How much does junk removal cost in {city}, IL?",
-            "a": f"Junk removal in {city} typically costs between $100–$600 depending on the volume of items and type of material. Garage Cleanout Guys provides completely free, no-obligation on-site quotes with upfront flat pricing — no hidden fees. Call (847) 306-9567 to schedule your free estimate in {city} today."
+            "a": f"Junk removal in {city} typically costs between $100–$600 depending on the volume of items and type of material. Garage Cleanout Guys provides completely free, no-obligation on-site quotes with upfront flat pricing — no hidden fees. Call (847) 461-3287 to schedule your free estimate in {city} today."
         },
         {
             "q": f"Do you offer same-day junk removal in {city}?",
-            "a": f"Yes! Cleanout Guys offers same-day junk removal service throughout {city} and the surrounding {region}. Call us before noon at (847) 306-9567 and we'll do our best to dispatch a crew the same day, subject to availability."
+            "a": f"Yes! Cleanout Guys offers same-day junk removal service throughout {city} and the surrounding {region}. Call us before noon at (847) 461-3287 and we'll do our best to dispatch a crew the same day, subject to availability."
         },
         {
             "q": f"Are you licensed and insured to work in {city}, Illinois?",
@@ -143,7 +143,7 @@ def get_faqs(city, county, region):
         },
         {
             "q": f"What areas near {city} do you also serve?",
-            "a": f"In addition to {city}, we serve all neighboring communities throughout the {region} and greater Chicagoland area. We cover 85+ suburbs — if you're in Chicagoland, we can help. Call (847) 306-9567 to confirm service at your address."
+            "a": f"In addition to {city}, we serve all neighboring communities throughout the {region} and greater Chicagoland area. We cover 85+ suburbs — if you're in Chicagoland, we can help. Call (847) 461-3287 to confirm service at your address."
         },
         {
             "q": f"Do you donate or recycle junk removed from {city} homes?",
@@ -189,12 +189,12 @@ def generate_page(suburb_data, idx):
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Junk Removal {name} IL | Same-Day Service | Cleanout Guys</title>
-  <meta name="description" content="Garage Cleanout Guys provides fast, affordable junk removal &amp; cleanout services in {name}, IL. Same-day available, licensed &amp; insured, upfront pricing. Call (847) 306-9567 for a FREE quote!">
+  <meta name="description" content="Garage Cleanout Guys provides fast, affordable junk removal &amp; cleanout services in {name}, IL. Same-day available, licensed &amp; insured, upfront pricing. Call (847) 461-3287 for a FREE quote!">
   <meta name="keywords" content="junk removal {name}, garage cleanout {name} IL, estate cleanout {name}, junk hauling {name} Illinois, same day junk removal {name}, appliance removal {name} IL, {name} IL junk removal company">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://cleanout-guys.com/locations/{slug}.html">
   <meta property="og:title" content="Junk Removal {name} IL | Cleanout Guys">
-  <meta property="og:description" content="Same-day junk removal in {name}, IL. Licensed &amp; insured. Free quotes. Call (847) 306-9567.">
+  <meta property="og:description" content="Same-day junk removal in {name}, IL. Licensed &amp; insured. Free quotes. Call (847) 461-3287.">
   <meta property="og:url" content="https://cleanout-guys.com/locations/{slug}.html">
   <meta property="og:type" content="website">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -209,7 +209,7 @@ def generate_page(suburb_data, idx):
         "@type": "LocalBusiness",
         "@id": "https://cleanout-guys.com/#business",
         "name": "Garage Cleanout Guys",
-        "telephone": "+18473069567",
+        "telephone": "+18474613287",
         "url": "https://cleanout-guys.com",
         "image": "https://cleanout-guys.com/images/cleanout-guys-logo.png",
         "address": {{
@@ -258,7 +258,7 @@ def generate_page(suburb_data, idx):
         <span>🏆 4.9 ⭐ on Google</span>
       </div>
       <div class="top-bar-right">
-        <a href="tel:+18473069567">📞 (847) 306-9567</a>
+        <a href="tel:+18474613287">📞 (847) 461-3287</a>
         <a href="../contact.html" style="background:var(--orange-600);color:#fff;padding:.25rem .75rem;border-radius:99px;font-weight:700;font-size:.78rem;">Free Quote →</a>
       </div>
     </div>
@@ -285,7 +285,7 @@ def generate_page(suburb_data, idx):
       <div class="header-cta">
         <div class="header-phone">
           <span class="phone-label">Call for Same-Day</span>
-          <a href="tel:+18473069567">(847) 306-9567</a>
+          <a href="tel:+18474613287">(847) 461-3287</a>
         </div>
         <a href="../contact.html" class="btn btn-primary btn-sm">Free Quote</a>
       </div>
@@ -314,7 +314,7 @@ def generate_page(suburb_data, idx):
         <div class="hero-trust-item"><span class="check">✓</span> No Hidden Fees</div>
       </div>
       <div style="margin-top:1.75rem;display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
-        <a href="tel:+18473069567" class="btn btn-phone">📞 (847) 306-9567</a>
+        <a href="tel:+18474613287" class="btn btn-phone">📞 (847) 461-3287</a>
         <a href="../contact.html" class="btn btn-secondary">Get Free Quote →</a>
       </div>
     </div>
@@ -401,7 +401,7 @@ def generate_page(suburb_data, idx):
             <p style="font-size:.9rem;color:var(--dark-400);">Population: ~{pop}</p>
             <div class="sidebar-divider"></div>
             <p style="font-weight:700;font-size:.88rem;color:var(--dark-700);margin-bottom:.5rem;">Call or Text for Same-Day Service:</p>
-            <a href="tel:+18473069567" class="sidebar-phone">📞 (847) 306-9567</a>
+            <a href="tel:+18474613287" class="sidebar-phone">📞 (847) 461-3287</a>
             <a href="../contact.html" class="btn btn-primary" style="width:100%;justify-content:center;margin-top:.75rem;">Get Free Quote Online</a>
             <div class="sidebar-divider"></div>
             <p style="font-weight:700;font-size:.88rem;color:var(--dark-700);margin-bottom:.75rem;">Our Services in {name}:</p>
@@ -444,7 +444,7 @@ def generate_page(suburb_data, idx):
         <h2>Ready for Junk Removal in {name}?</h2>
         <p>Call or request a quote online. Same-day service available throughout {name} and {county} County.</p>
         <div class="cta-btns">
-          <a href="tel:+18473069567" class="btn btn-secondary btn-lg">📞 (847) 306-9567</a>
+          <a href="tel:+18474613287" class="btn btn-secondary btn-lg">📞 (847) 461-3287</a>
           <a href="../contact.html" class="btn btn-green btn-lg">Get Free Quote →</a>
         </div>
       </div>
@@ -462,7 +462,7 @@ def generate_page(suburb_data, idx):
           <p class="footer-about">Chicago's most trusted junk removal company. Serving {name} and 85+ suburbs. Licensed, insured, eco-friendly.</p>
           <div class="footer-nap">
             <div>📍 Serving {name}, {county} County, IL</div>
-            <div>📞 <a href="tel:+18473069567">(847) 306-9567</a></div>
+            <div>📞 <a href="tel:+18474613287">(847) 461-3287</a></div>
             <div>✉️ <a href="mailto:info@cleanout-guys.com">info@cleanout-guys.com</a></div>
           </div>
         </div>
@@ -488,14 +488,14 @@ def generate_page(suburb_data, idx):
         </div>
       </div>
       <div class="footer-bottom">
-        <div>© <span id="year"></span> Cleanout Guys · Serving {name}, IL &amp; Chicagoland · <a href="tel:+18473069567">(847) 306-9567</a></div>
+        <div>© <span id="year"></span> Cleanout Guys · Serving {name}, IL &amp; Chicagoland · <a href="tel:+18474613287">(847) 461-3287</a></div>
       </div>
     </div>
   </footer>
 
   <div class="floating-cta">
     <a href="../contact.html" class="float-btn float-quote">📋 <span>Free Quote</span></a>
-    <a href="tel:+18473069567" class="float-btn float-phone">📞 <span>Call Now</span></a>
+    <a href="tel:+18474613287" class="float-btn float-phone">📞 <span>Call Now</span></a>
   </div>
   <a href="#" id="back-to-top">↑</a>
   <script src="../js/main.js" defer></script>
@@ -542,8 +542,8 @@ def generate_index_page():
   </script>
 </head>
 <body>
-  <div class="top-bar"><div class="container"><div class="top-bar-badges"><span>✅ Licensed &amp; Insured</span><span>⚡ Same-Day Available</span><span>🌿 Eco-Friendly</span></div><div class="top-bar-right"><a href="tel:+18473069567">📞 (847) 306-9567</a></div></div></div>
-  <header class="site-header"><div class="header-inner"><a href="../index.html" class="site-logo"><div class="logo-icon">🚛</div><div class="logo-text"><div class="logo-name">Garage Cleanout Guys</div><div class="logo-tagline">Chicago's Junk Removal Pros</div></div></a><nav class="main-nav" id="main-nav"><button class="mobile-close" id="nav-close">✕</button><a href="../index.html">Home</a><a href="../services/index.html">Services</a><a href="index.html" class="active">Service Areas</a><a href="../about.html">About</a><a href="../faq.html">FAQ</a><a href="../contact.html">Contact</a></nav><div class="header-cta"><a href="tel:+18473069567" class="header-phone" style="text-align:right;text-decoration:none;"><span class="phone-label">Free Quote</span><span style="font-size:1.1rem;font-weight:800;color:var(--green-800);">(847) 306-9567</span></a><a href="../contact.html" class="btn btn-primary btn-sm">Get Quote</a></div><button class="menu-toggle" id="menu-toggle"><span></span><span></span><span></span></button></div></header>
+  <div class="top-bar"><div class="container"><div class="top-bar-badges"><span>✅ Licensed &amp; Insured</span><span>⚡ Same-Day Available</span><span>🌿 Eco-Friendly</span></div><div class="top-bar-right"><a href="tel:+18474613287">📞 (847) 461-3287</a></div></div></div>
+  <header class="site-header"><div class="header-inner"><a href="../index.html" class="site-logo"><div class="logo-icon">🚛</div><div class="logo-text"><div class="logo-name">Garage Cleanout Guys</div><div class="logo-tagline">Chicago's Junk Removal Pros</div></div></a><nav class="main-nav" id="main-nav"><button class="mobile-close" id="nav-close">✕</button><a href="../index.html">Home</a><a href="../services/index.html">Services</a><a href="index.html" class="active">Service Areas</a><a href="../about.html">About</a><a href="../faq.html">FAQ</a><a href="../contact.html">Contact</a></nav><div class="header-cta"><a href="tel:+18474613287" class="header-phone" style="text-align:right;text-decoration:none;"><span class="phone-label">Free Quote</span><span style="font-size:1.1rem;font-weight:800;color:var(--green-800);">(847) 461-3287</span></a><a href="../contact.html" class="btn btn-primary btn-sm">Get Quote</a></div><button class="menu-toggle" id="menu-toggle"><span></span><span></span><span></span></button></div></header>
 
   <nav class="breadcrumb"><div class="container"><ol class="breadcrumb-list"><li><a href="../index.html">Home</a></li><li><span>All Service Areas</span></li></ol></div></nav>
 
@@ -552,7 +552,7 @@ def generate_index_page():
       <h1>Junk Removal &amp; Cleanout Services — All Chicagoland Locations</h1>
       <p class="page-hero-sub">We serve Chicago and 85+ surrounding suburbs. Click your city below to see local pricing, availability, and contact info.</p>
       <div style="margin-top:1.5rem;display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
-        <a href="tel:+18473069567" class="btn btn-phone">📞 (847) 306-9567</a>
+        <a href="tel:+18474613287" class="btn btn-phone">📞 (847) 461-3287</a>
         <a href="../contact.html" class="btn btn-secondary">Get Free Quote</a>
       </div>
     </div>
@@ -576,15 +576,15 @@ def generate_index_page():
         <h2>Don't See Your City?</h2>
         <p>We likely serve your area! Give us a call or send a quick message and we'll confirm service at your address.</p>
         <div class="cta-btns">
-          <a href="tel:+18473069567" class="btn btn-secondary btn-lg">📞 (847) 306-9567</a>
+          <a href="tel:+18474613287" class="btn btn-secondary btn-lg">📞 (847) 461-3287</a>
           <a href="../contact.html" class="btn btn-green btn-lg">Request a Quote →</a>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer"><div class="container"><div class="footer-bottom" style="border-top:none;padding-top:0;"><div>© <span id="year"></span> Cleanout Guys · Chicago &amp; Chicagoland · (847) 306-9567</div></div></div></footer>
-  <div class="floating-cta"><a href="tel:+18473069567" class="float-btn float-phone">📞 <span>Call Now</span></a></div>
+  <footer class="site-footer"><div class="container"><div class="footer-bottom" style="border-top:none;padding-top:0;"><div>© <span id="year"></span> Cleanout Guys · Chicago &amp; Chicagoland · (847) 461-3287</div></div></div></footer>
+  <div class="floating-cta"><a href="tel:+18474613287" class="float-btn float-phone">📞 <span>Call Now</span></a></div>
   <a href="#" id="back-to-top">↑</a>
   <script src="../js/main.js" defer></script>
 </body>
